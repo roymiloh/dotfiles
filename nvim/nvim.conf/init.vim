@@ -35,6 +35,7 @@ Plug 'whatyouhide/vim-gotham'
 Plug 'vim-airline/vim-airline'
 
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'airblade/vim-gitgutter'
 Plug 'mattn/gist-vim'
@@ -53,7 +54,7 @@ Plug 'matze/vim-move'
 Plug 'christoomey/vim-tmux-navigator'
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'carlitux/deoplete-ternjs', { 'do': 'yarn global add tern' } " using yarn here since nvm can screw up npm's $PATH
+Plug 'carlitux/deoplete-ternjs', { 'do': 'npm i' }
 Plug 'Shougo/neco-vim'
 Plug 'zchee/deoplete-zsh'
 Plug 'Shougo/neco-syntax'
@@ -82,6 +83,7 @@ call plug#end()
 " Editor {{{
 
 set number                            " show line numbers
+set relativenumber                    " show relative numbers
 set linebreak                         " wraps between words
 set list                              " show invisibles
 set scrolloff=8                       " allows to scroll of the screen

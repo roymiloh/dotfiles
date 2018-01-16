@@ -1,5 +1,5 @@
-# Setting default
-nvm alias default system &> /dev/null
+export NVM_DIR="/Users/roymi/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Automate `nvm use`
 load-nvmrc() {
@@ -10,5 +10,6 @@ load-nvmrc() {
     nvm use default
   fi
 }
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
+
+#add-zsh-hook chpwd load-nvmrc
+#load-nvmrc

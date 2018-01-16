@@ -35,13 +35,9 @@ fi
 
 if [[ $(command -v osascript) ]]; then
   itunes="$(osascript "$DOTFILES"/_misc/applescripts/itunes.scpt)"
-  spotify="$(osascript "$DOTFILES"/_misc/applescripts/spotify.scpt)"
-  soundcloud="$(osascript "$DOTFILES"/_misc/applescripts/soundcloud.js)"
 
   music_res="N/A"
 
-  [[ $soundcloud != "" ]] && music_res=$soundcloud
-  [[ $spotify != "" ]] && music_res=$spotify
   [[ $itunes != "" ]] && music_res=$itunes
 
   tm_segment "♫" cyan "$music_res"

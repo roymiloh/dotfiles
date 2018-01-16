@@ -32,4 +32,4 @@ set -g window-status-activity-attr bold
 
 # Make this shit happen
 set -g status-left "#[fg=magenta,bold] ♜  #S  "
-set -g status-right "#(~/dotfiles/tmux/right_segments.sh)"
+set -g status-right "#(~/projects/dotfiles-1/tmux/right_segments.sh)"
