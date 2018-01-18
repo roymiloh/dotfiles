@@ -36,6 +36,7 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'w0rp/ale'
 
 Plug 'airblade/vim-gitgutter'
 Plug 'mattn/gist-vim'
@@ -46,6 +47,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-characterize'
+Plug 'tomtom/tcomment_vim'
 
 Plug 'jiangmiao/auto-pairs'
 Plug 'terryma/vim-multiple-cursors'
@@ -66,14 +68,13 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'junegunn/vim-emoji'
 
-Plug 'kassio/neoterm'
-Plug 'neomake/neomake'
-Plug 'benjie/neomake-local-eslint.vim'
-
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'mxw/vim-jsx', { 'for': 'javascript' }
 Plug 'moll/vim-node', { 'for': 'javascript' }
 Plug 'ternjs/tern_for_vim'
+
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', { 'do': ':UpdateRemotePlugins' }
 
 call plug#end()
 
