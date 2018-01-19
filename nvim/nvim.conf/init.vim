@@ -64,6 +64,8 @@ Plug 'Shougo/neco-syntax'
 
 Plug 'Valloric/MatchTagAlways'
 
+Plug 'wellle/targets.vim'
+
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 
