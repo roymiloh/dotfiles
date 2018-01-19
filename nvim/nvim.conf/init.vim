@@ -54,6 +54,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'matze/vim-move'
 
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'ktonga/vim-follow-my-lead'
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm i' }
