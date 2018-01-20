@@ -212,7 +212,7 @@ set colorcolumn=100                   " cuz percision matter
 " ------------------------------------------------------------------------------
 " Mappings and abbreviations {{{
 
-let mapleader=','                     " change the map leader
+let mapleader='.'                     " change the map leader
 
 " Move vertically by visual line
 nnoremap j gj
@@ -310,5 +310,11 @@ cnoreabbrev Q q
 cnoreabbrev Wq wq
 cnoreabbrev WQ wq
 cnoreabbrev qQ q!
+
+" Move one line up
+nnoremap <leader>k :m -2<CR>
+
+" Move one line down
+nnoremap <leader>j :m +1<CR>
 
 " }}}
